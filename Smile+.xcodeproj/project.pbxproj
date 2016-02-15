@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E734F7E1A446CC30011EC30 /* smiley-163510_1280.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5E734F7D1A446CC30011EC30 /* smiley-163510_1280.jpeg */; };
 		5E75982A1A09715F005E829E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7598291A09715F005E829E /* main.m */; };
 		5E75982D1A09715F005E829E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E75982C1A09715F005E829E /* AppDelegate.m */; };
 		5E7598301A09715F005E829E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E75982F1A09715F005E829E /* ViewController.m */; };
@@ -14,6 +15,12 @@
 		5E7598351A09715F005E829E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7598341A09715F005E829E /* Images.xcassets */; };
 		5E7598381A09715F005E829E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E7598361A09715F005E829E /* LaunchScreen.xib */; };
 		5E7598441A09715F005E829E /* Smile_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7598431A09715F005E829E /* Smile_Tests.m */; };
+		5E75984E1A097520005E829E /* 2000px-Smiley.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E75984D1A097520005E829E /* 2000px-Smiley.svg.png */; };
+		5E7598511A097750005E829E /* minus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E75984F1A097750005E829E /* minus.jpg */; };
+		5E7598521A097750005E829E /* plus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E7598501A097750005E829E /* plus.jpg */; };
+		5E825DD61A178C3600E98C40 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E825DD51A178C3600E98C40 /* iAd.framework */; };
+		5E9BA4591A1A854800E6FE7B /* twitter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E9BA4581A1A854800E6FE7B /* twitter.jpg */; };
+		5E9BA45B1A1A855100E6FE7B /* facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E9BA45A1A1A855100E6FE7B /* facebook.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E734F7D1A446CC30011EC30 /* smiley-163510_1280.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "smiley-163510_1280.jpeg"; sourceTree = "<group>"; };
 		5E7598241A09715F005E829E /* Smile+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smile+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7598281A09715F005E829E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7598291A09715F005E829E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,12 @@
 		5E75983D1A09715F005E829E /* Smile+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smile+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7598421A09715F005E829E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7598431A09715F005E829E /* Smile_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smile_Tests.m; sourceTree = "<group>"; };
+		5E75984D1A097520005E829E /* 2000px-Smiley.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2000px-Smiley.svg.png"; path = "../../../Downloads/2000px-Smiley.svg.png"; sourceTree = "<group>"; };
+		5E75984F1A097750005E829E /* minus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = minus.jpg; path = ../../../Downloads/minus.jpg; sourceTree = "<group>"; };
+		5E7598501A097750005E829E /* plus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = plus.jpg; path = ../../../Downloads/plus.jpg; sourceTree = "<group>"; };
+		5E825DD51A178C3600E98C40 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		5E9BA4581A1A854800E6FE7B /* twitter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = twitter.jpg; path = ../../../Downloads/twitter.jpg; sourceTree = "<group>"; };
+		5E9BA45A1A1A855100E6FE7B /* facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = facebook.jpg; path = ../../../Downloads/facebook.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E825DD61A178C3600E98C40 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 		5E75981B1A09715F005E829E = {
 			isa = PBXGroup;
 			children = (
+				5E825DD51A178C3600E98C40 /* iAd.framework */,
 				5E7598261A09715F005E829E /* Smile+ */,
 				5E7598401A09715F005E829E /* Smile+Tests */,
 				5E7598251A09715F005E829E /* Products */,
@@ -96,6 +112,12 @@
 		5E7598271A09715F005E829E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E734F7D1A446CC30011EC30 /* smiley-163510_1280.jpeg */,
+				5E9BA45A1A1A855100E6FE7B /* facebook.jpg */,
+				5E9BA4581A1A854800E6FE7B /* twitter.jpg */,
+				5E75984F1A097750005E829E /* minus.jpg */,
+				5E7598501A097750005E829E /* plus.jpg */,
+				5E75984D1A097520005E829E /* 2000px-Smiley.svg.png */,
 				5E7598281A09715F005E829E /* Info.plist */,
 				5E7598291A09715F005E829E /* main.m */,
 			);
@@ -199,8 +221,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9BA4591A1A854800E6FE7B /* twitter.jpg in Resources */,
+				5E734F7E1A446CC30011EC30 /* smiley-163510_1280.jpeg in Resources */,
+				5E75984E1A097520005E829E /* 2000px-Smiley.svg.png in Resources */,
+				5E7598521A097750005E829E /* plus.jpg in Resources */,
 				5E7598331A09715F005E829E /* Main.storyboard in Resources */,
 				5E7598381A09715F005E829E /* LaunchScreen.xib in Resources */,
+				5E9BA45B1A1A855100E6FE7B /* facebook.jpg in Resources */,
+				5E7598511A097750005E829E /* minus.jpg in Resources */,
 				5E7598351A09715F005E829E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +440,7 @@
 				5E7598491A09715F005E829E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E75984A1A09715F005E829E /* Build configuration list for PBXNativeTarget "Smile+Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +449,7 @@
 				5E75984C1A09715F005E829E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
